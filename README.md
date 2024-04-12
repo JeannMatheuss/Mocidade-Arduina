@@ -1,4 +1,5 @@
 Sistema de Controle de Luminosidade
+
 Este é um sistema de controle de luminosidade baseado em Arduino que utiliza um Light Dependent Resistor (LDR) para monitorar a luminosidade do ambiente e controlar LEDs e um buzzer de acordo com os níveis de luz detectados.
 
 Componentes Utilizados
