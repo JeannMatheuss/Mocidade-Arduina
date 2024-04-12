@@ -22,12 +22,12 @@ void loop() {
   Serial.println(valorLDR);
   Serial.print("Luminosidade da Luz: "); // Imprime a string na porta serial
   Serial.println(luminosidadeLuz);        // Imprime o valor da luminosidade da luz na porta serial
-  if (luminosidadeLuz <= 20) { // Se a luminosidade for menor ou igual a 30
+  if (luminosidadeLuz <= 20) { // Se a luminosidade for menor ou igual a 20
     digitalWrite(greenLED, HIGH); // Acende o LED verde
     digitalWrite(yellowLED, LOW); // Apaga o LED amarelo
     digitalWrite(redLED, LOW);    // Apaga o LED vermelho
     digitalWrite(BUZZER, LOW);    // Desliga o buzzer
-  } else if (luminosidadeLuz > 20 && luminosidadeLuz <= 50) { // Se a luminosidade estiver entre 30 e 50
+  } else if (luminosidadeLuz > 20 && luminosidadeLuz <= 50) { // Se a luminosidade estiver entre 20 e 50
     digitalWrite(greenLED, LOW);   // Apaga o LED verde
     digitalWrite(yellowLED, HIGH); // Acende o LED amarelo
     digitalWrite(redLED, LOW);     // Apaga o LED vermelho
