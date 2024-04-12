@@ -7,9 +7,13 @@ Este é um sistema de controle de luminosidade baseado em Arduino que utiliza um
 Componentes Utilizados
 
 LED Verde: Conectado ao pino digital 8.
+
 LED Amarelo: Conectado ao pino digital 7.
+
 LED Vermelho: Conectado ao pino digital 4.
+
 Buzzer: Conectado ao pino digital 3.
+
 LDR (Light Dependent Resistor): Conectado ao pino analógico A0.
 
 
