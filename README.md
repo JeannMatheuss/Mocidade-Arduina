@@ -4,7 +4,7 @@ Este é um sistema de controle de luminosidade baseado em Arduino que utiliza um
 
 
 
-Componentes Utilizados
+Componentes Utilizados:
 
 LED Verde: Conectado ao pino digital 8.
 
@@ -18,7 +18,7 @@ LDR (Light Dependent Resistor): Conectado ao pino analógico A0.
 
 
 
-Funcionamento
+Funcionamento:
 
 O código monitora constantemente a luminosidade detectada pelo LDR. Com base nesse valor, ele controla os LEDs e o buzzer de acordo com as seguintes condições:
 
@@ -40,7 +40,7 @@ Após cada ciclo de leitura e controle, o programa aguarda 3 segundos antes de r
 
 
 
-Observações
+Observações:
 
 A comunicação serial é utilizada para exibir a luminosidade medida pelo LDR.
 
