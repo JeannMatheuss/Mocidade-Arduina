@@ -32,14 +32,20 @@ Setup
 No setup(), a comunicação serial é iniciada com uma taxa de 9600 bauds e os pinos são configurados como entrada ou saída conforme necessário para os LEDs, o buzzer e o LDR.
 
 Loop
-No loop(), o valor analógico do LDR é lido e mapeado para o intervalo de 0 a 100, representando a luminosidade. Com base nesse valor, são tomadas as decisões para controlar os LEDs e o buzzer conforme as condições descritas acima. Após cada ciclo de leitura e controle, o programa aguarda 3 segundos antes de repetir o processo.
+No loop(), o valor analógico do LDR é lido e mapeado para o intervalo de 0 a 100, representando a luminosidade.
+
+Com base nesse valor, são tomadas as decisões para controlar os LEDs e o buzzer conforme as condições descritas acima.
+
+Após cada ciclo de leitura e controle, o programa aguarda 3 segundos antes de repetir o processo.
 
 
 
 Observações
 
 A comunicação serial é utilizada para exibir a luminosidade medida pelo LDR.
+
 Os tempos de acionamento do buzzer foram definidos experimentalmente e podem ser ajustados conforme necessário.
+
 Nota: Certifique-se de conectar os componentes aos pinos corretos do Arduino de acordo com as definições no código.
 
 Espero que este readme tenha esclarecido o funcionamento do código! Se precisar de mais alguma informação, não hesite em perguntar.
