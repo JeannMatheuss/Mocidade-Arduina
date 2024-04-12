@@ -51,4 +51,11 @@ Nota: Certifique-se de conectar os componentes aos pinos corretos do Arduino de 
 Espero que este readme tenha esclarecido o funcionamento do código! Se precisar de mais alguma informação, não hesite em perguntar.
 
 
+LINK DO VIDEO EXPLICATIVO:
 
+https://www.youtube.com/watch?v=gOwHPEsS8qU
+
+
+LINK DA SIMULAÇÃO:
+
+https://www.tinkercad.com/things/6l3Ax9A24dL-cp1-edge/editel?sharecode=wPIQAg5MdSCTSQYelCFWj5IWfa-OvE1eBqGnDyUHY4c
